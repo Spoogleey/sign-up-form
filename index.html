@@ -13,34 +13,46 @@
             <div class="text">ODIN</div>
         </div>
         <div class="credits">
-            <div>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+            <div>Photo by <a class="credits_links" href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a class="credits_links" href="https://unsplash.com/">Unsplash</a></div>
         </div>
     </div>
     <div id="form">
         <div class="initial_text">
-            <p class="first_paragraph">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+            <p class="first_paragraph">This is not a real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
             <p class="second_paragraph">You <em>know</em> you want to.</p>
         </div>
         <div class="signup_form">
             <div class="form_title">Let's do this!</div>
             <div class="form_input">
-                <div class="name_input">
-                    <label for="firstname">FIRST NAME</label>
-                    <input type="text" name="firstname" id="firstname">
-                    <label for="lastname">LAST NAME</label>
-                    <input type="text" name="lastname" id="lastname">
+                <div class="info_input">
+                    <div class="text_input">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div class="text_input">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" name="lastname" id="lastname" required>
+                    </div>
                 </div>
                 <div class="info_input">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="number" name="phone" id="phone">
+                    <div class="text_input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="text_input">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="number" name="phone" id="phone" required>
+                    </div>
                 </div>
-                <div class="pass_input">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
-                    <label for="retype_password">CONFIRM PASSWORD</label>
-                    <input type="password" name="retype_password" id="retype_password">
+                <div class="info_input">
+                    <div class="text_input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="text_input">
+                        <label for="retype_password">CONFIRM PASSWORD</label>
+                        <input type="password" name="retype_password" id="retype_password" required>
+                    </div>
                 </div>
             </div>
         </div>

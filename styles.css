@@ -41,12 +41,73 @@ body {
     margin-bottom: 10px;
 }
 
-.credits a {
+.credits_links {
     color: white;
 }
 
 #form {
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     flex: 2;
+    justify-content: space-around;
+}
+
+.initial_text {
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.form_title {
+    font-size: 30px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info_input {
+    display: flex;
+    gap: 150px;
+}
+
+.text_input {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 4px 2px;
+    width: 250px;
+    border: #E5E7EB 1px solid;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border: blue 1px solid;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+input[type="password"]:invalid {
+    outline: none;
+    border: red 1px solid;
+}
+
+.create_account {
+    padding-left: 50px;
 }
