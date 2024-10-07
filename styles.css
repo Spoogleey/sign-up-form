@@ -109,5 +109,24 @@ input[type="password"]:invalid {
 }
 
 .create_account {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     padding-left: 50px;
+    gap: 12px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+
+.log_in_link {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
